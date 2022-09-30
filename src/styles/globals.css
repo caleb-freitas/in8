@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Helvetica";
+    src: url("/src/assets/fonts/helvetica-ultra-light") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Roboto Regular";
+    src: url("/src/assets/fonts/roboto-light") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Roboto Light";
+    src: url("/src/assets/fonts/roboto-regular") format("ttf");
+  }
+
+  h1, h2, h3  {
+    font-family: "Helvetica"
+  }
+}
