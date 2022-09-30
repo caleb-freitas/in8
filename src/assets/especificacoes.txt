@@ -1,0 +1,23 @@
+FONTES:
+
+-Estágio | Prova de seleção: Helvetica 25 UltraLight Regular
+-Títulos da página (Cadastro, Lista de cadastro): Helvetica 25 UltraLight Regular
+-Chamada de campo de preenchimento (Nome, E-mail...): Roboto Regular
+-Preenchimento do formulário (Fulano Beltrano...) Helvetica Condensed Regular
+-Botão (Cadastrar): Helvetica 25 UltraLight Regular
+-Menu (Desktop e Mobile/Tablet): Roboto Regular
+-Tabela:
+	Números: Roboto Light
+	Títulos das colunas (Nome, E-mail...): Roboto Regular
+	Informações (Fulano Beltrano...): Helvetica Condensed Regular
+-Rodapé: Roboto Light
+
+CORES:
+-Fundo de cadastro: #29abe2
+-Título do botão 'Cadastrar': #29abe2
+-Título 'Lista de Cadastro': #29abe2
+-Números da tabela: #012d51
+-Botão 'Cadastrar": #012d51
+-Títulos das colunas da tabela:#012d51
+-Linhas da tabela: #29abe2
+-Informações da tabela: #808080
