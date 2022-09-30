@@ -19,7 +19,15 @@ module.exports = {
       "mid-blue": "#29abe2",
       "dark-blue": "#012d51",
       "light-gray": "#808080"
-    }
+    },
+
+    screens: {
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
   },
   plugins: [],
 };
