@@ -6,7 +6,9 @@ const defaultTheme = require("tailwindcss/defaultTheme")
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+
+    },
     fontFamily: {
       "helvetica": ["Helvetica", ...defaultTheme.fontFamily.sans],
       "roboto-light": ["'Roboto Light'", ...defaultTheme.fontFamily.sans],
@@ -18,9 +20,10 @@ module.exports = {
 
       "mid-blue": "#29abe2",
       "dark-blue": "#012d51",
-      "light-gray": "#808080"
-    },
+      "light-gray": "#808080",
 
+      "white": "#FFFFFF"
+    },
     screens: {
       'tablet': '640px',
       // => @media (min-width: 640px) { ... }
