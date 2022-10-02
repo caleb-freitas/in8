@@ -1,9 +1,9 @@
 import { t } from "../trpc";
 
-import { internshipRouter } from "./internship";
+import { registrationRouter } from "./registration";
 
 export const appRouter = t.router({
-  internship: internshipRouter,
+  registration: registrationRouter,
 });
 
 export type AppRouter = typeof appRouter;
