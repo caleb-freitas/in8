@@ -20,11 +20,7 @@ const RegistrationForm: NextPage = () => {
     }
   })
 
-  const { mutate, error } = trpc.registration.signup.useMutation({
-    async onSuccess() {
-      await utils.registration.list.invalidate()
-    }
-  })
+  const { mutate, error } = trpc.registration.signup.useMutation()
 
   form.useSubmit(() => mutate(form.values))
 
