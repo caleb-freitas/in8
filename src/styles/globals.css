@@ -18,6 +18,10 @@
     src: url("/public/fonts/roboto-regular") format("ttf");
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   h1, h2, h3  {
     font-family: "Helvetica"
   }
