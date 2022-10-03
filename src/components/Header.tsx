@@ -1,4 +1,5 @@
 import { NextPage } from "next"
+import Head from "next/head"
 import Image from "next/image"
 import { Circle } from "phosphor-react"
 
@@ -8,6 +9,10 @@ import in8Logo from "../../public/logos/resized-in8.svg"
 const Header: NextPage = () => {
   return (
     <>
+    <Head>
+      <title>IN8 Estágio</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <div className="relative h-screen">
       <Image src={headerDesktop} alt=""  />
       <div className="absolute left-0 top-0 px-44 pt-8">
