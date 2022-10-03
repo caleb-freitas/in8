@@ -20,7 +20,8 @@ const RegistrationTable: NextPage = () => {
   } = infiniteRegistrationsQuery
 
   return (
-    <div className="flex flex-col items-center text-center w-full">
+    <section className="flex flex-col items-center text-center" id="registration-list">
+      <h1 className="text-2xl text-helvetica text-mid-blue text-center py-12">LISTA DE CADASTROS</h1>
       <div className="flex flex-row items-end">
         <table className="border-collapse">
           <thead className="text-dark-blue font-roboto-regular h-12">
@@ -71,8 +72,7 @@ const RegistrationTable: NextPage = () => {
             : "Não há mais cadastros"}
         </button>
       </div>
-
-    </div>
+    </section>
   )
 }
 

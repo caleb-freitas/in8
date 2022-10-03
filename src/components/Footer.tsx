@@ -5,9 +5,9 @@ import footerDesktop from "../../public/images/footer-desktop.jpg"
 
 const Footer: NextPage = () => {
   return (
-    <div className="w-full h-full mt-8">
+    <section id="about" className="">
       <Image src={footerDesktop} alt="" />
-    </div>
+    </section>
   )
 }
 
