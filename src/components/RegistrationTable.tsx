@@ -38,7 +38,7 @@ const RegistrationTable: NextPage = () => {
               page.registrations.map(registration => {
                 return (
                   <tr key={registration.id} className="h-12 border-t-[1px] border-mid-blue text-light-gray">
-                    <td className="w-20 text-dark-blue font-roboto-light">1</td>
+                    <td className="w-20 text-dark-blue font-roboto-light">{registration.id}</td>
                     <td className="border-x-[0.5px] border-mid-blue w-48 text-left p-2">{registration.name}</td>
                     <td className="border-x-[0.5px] border-mid-blue w-48">{registration.email}</td>
                     <td className="border-x-[0.5px] border-mid-blue w-48">{registration.birthDate}</td>
