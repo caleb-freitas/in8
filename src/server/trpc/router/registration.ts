@@ -38,7 +38,7 @@ export const registrationRouter = t.router({
     .input(
       z.object({
         limit: z.number().min(1).max(4).nullish(),
-        cursor: z.string().nullish(),
+        cursor: z.number().nullish(),
       })
     )
     .query(async ({ input, ctx }) => {
