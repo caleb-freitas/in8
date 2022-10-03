@@ -1,6 +1,6 @@
 import * as trpc from "@trpc/server";
 import * as trpcNext from "@trpc/server/adapters/next";
-import { prisma } from "../db/client";
+import { prisma } from "./prisma";
 
 type CreateContextOptions = Record<string, never>;
 

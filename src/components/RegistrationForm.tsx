@@ -1,7 +1,7 @@
 import { inferProcedureInput } from '@trpc/server';
 import { Form, FormInput, FormLabel, FormSubmit, useFormState } from 'ariakit';
 
-import { AppRouter } from '../server/trpc/router';
+import { AppRouter } from '../server/routers/_app';
 import { trpc } from '../utils/trpc';
 
 import type { NextPage } from "next";
