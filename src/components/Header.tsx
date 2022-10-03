@@ -19,7 +19,7 @@ const Header: NextPage = () => {
         <div className="flex flex-row justify-between">
           <Image src={in8Logo} alt="" />
           <nav className="font-roboto-regular text-white text-end ml-[700px]">
-            <div className="flex flex-row items-center gap-2">
+            <div className="flex flex-row items-center gap-2 font-roboto-light">
               <a href="#registration-form" className="hover:underline">Cadastro</a>
               <Circle weight="fill" size={8}/>
               <a href="#registration-list" className="hover:underline">Lista</a>
