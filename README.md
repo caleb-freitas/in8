@@ -6,11 +6,11 @@ Aplicação feita para cadastrar candidatos a estágio da IN8.
 
 - [Observações preliminares](#observações-preliminares)
 
-- [Como executar localmente](#how-to-run-in-production)
+- [Como executar localmente](#como-executar-localmente)
 
-- [Próximos passos](#next-features)
+- [Próximos passos](#próximo-passos)
 
-- [Tecnologias](#technologies)
+- [Tecnologias](#tecnologias)
 
 ## Observações preliminares
 
@@ -21,7 +21,6 @@ Aplicação feita para cadastrar candidatos a estágio da IN8.
 - Clone o repositório
 
 ```sh
-# clone o repositório
 $ git clone git@github.com:caleb-freitas/in8.git && cd in8
 ```
 
@@ -40,9 +39,9 @@ datasource db {
 
 - Renomeie o arquivo [.example.env](./.example.env) para `.env`
 
-- Execute `npx prisma db push` para aplicar o schema no banco de dados
+- Execute `npx prisma db push` para aplicar o model `Registration` no banco de dados
 
-- Run `npm run dev` to start the application
+- Execute `npm run dev` para iniciar a aplicação
 
 ## Próximo passos
 
